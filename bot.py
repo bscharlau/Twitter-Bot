@@ -13,7 +13,7 @@ api = tweepy.API(auth)
 # this checks your current internet speed
 print(speedrecorder.speedtest(quiet=False))
 
-#this is parseing through the internet speed returned
+#this is parseing through the internet speed returned to get values
 
 
 if False:
