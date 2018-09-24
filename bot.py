@@ -1,13 +1,11 @@
 
 import tweepy, subprocess
 
-time_inverval = 24 # length in hours
 upload_threshold = 100.0  # speed in Mbps
 download_threshold = 100.0 # speed in Mbps
 service_providers_twitter_handle = "@dummyServiceProvider"
 tweet_upload_speed = False
 tweet_download_speed = False
-
 
 # enter the corresponding information from your Twitter application:
 CONSUMER_KEY = ''  # keep the quotes, replace this with your consumer key
